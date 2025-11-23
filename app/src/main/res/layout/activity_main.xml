@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="16dp"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+ <Button android:id="@+id/btnPickVideo" android:text="Chọn VIDEO"
+   android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/btnPickImage" android:text="Chọn ẢNH"
+   android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:layout_marginTop="10dp"/>
+ <Spinner android:id="@+id/spinnerAngle" android:layout_width="match_parent"
+   android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+ <Switch android:id="@+id/switchEnableVcam" android:text="Bật camera ảo"
+   android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:layout_marginTop="15dp"/>
+ <TextView android:id="@+id/tvCurrentFile" android:text="Chưa chọn file"
+   android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:layout_marginTop="20dp"/>
+</LinearLayout>
